@@ -1,4 +1,4 @@
-# SignUp-From
+# SignUp-Form
 An application on some input validations  \
 from "The Odin Project"  \
 For Live Preview:  \
