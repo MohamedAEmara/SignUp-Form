@@ -1,2 +1,5 @@
 # SignUp-From
-a CSS form Odin Project Application.
+An application on some input validations  \
+from "The Odin Project"
+
+

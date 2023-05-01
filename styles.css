@@ -1,0 +1,186 @@
+@font-face {
+    font-family: my-font;
+    src: url(.font/Calligraffitti-Regular.ttf);
+}
+
+@font-face {
+    font-family: all;
+    src: url(.font/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: all;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgb(185, 182, 182);
+
+}
+
+.left {
+    font-family: my-font;
+    background-image: url(.img/bg.jpg);
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 50px;
+    box-shadow: -10px -10px 50px brown;
+
+    width: 700px;
+    height: 100em;
+    justify-content: space-between;
+}
+
+.right {
+    display: flexbox;
+    flex-direction: row;
+
+}
+
+.company-name {
+    font-size: 110px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 2px 2px 15px brown;
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin-top: 100px;
+    position: sticky;
+    top: 150px;
+}
+
+.footer {
+    color: white;
+    position: sticky;
+    bottom: 20px;
+    font-size: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 90px;
+
+    width: 550px;
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+    box-shadow: 2px 2px 30px black;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 60px;
+}
+
+.summary {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 40px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.have-account {
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.first-name, .last-name, .mail, .password {
+    margin-right: 120px;
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 550;
+    align-items: center;
+}
+
+.mail > label {
+    margin-right: 52px;
+}
+
+.password > label {
+    margin-right: 12px;
+}
+
+.last-name > label {
+    margin-right: 2px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: #7d1818;
+    color: white;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+button:hover {
+    background-color: rgb(157, 93, 10);
+    font-weight: 600;
+    box-shadow: 4px 4px 35px rgb(157, 93, 10);
+}
+
+
+input {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: antiquewhite;
+}
+
+
+input:valid{
+    background-color: greenyellow;
+}
+
+
+label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.log-in {
+    color: red;
+    font-weight: 650;
+    font-size: 20px;
+}
+
+
+.summary {
+    position: sticky;
+    top: 50px;
+
+}
+
+.form {
+    position: sticky;
+    top: 240px;
+    align-self: center;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    color: red;
+    font-weight: 600;
+}
